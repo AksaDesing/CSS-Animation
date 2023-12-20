@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Whisper&display=swap');
+
+body {
+    font-family: "Silkscreen", sans-serif;
+    background-color: #131417;
+}
+
+.animate-container {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-shadow: 0 0 7px rgba(255, 255, 255, .3), 0 0 3px rgba(255, 255, 255, .3);
+}
+
+.animate-first {
+    height: 60px;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+
+.animate-second {
+    height: 60px;
+    overflow: hidden;
+    margin-left: 2rem;
+}
+
+.animate-first>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animate-second>div>div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animate-first div:first-child {
+    animation: text-animation 12s infinite;
+}
+
+.first div {
+    border-radius: 25px;
+}
+
+.second div {
+    border-radius: 25px;
+}
+
+.third div {
+    border-radius: 25px;
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -5.62rem;
+    }
+
+    30% {
+        margin-top: -5.62rem;
+    }
+
+    40% {
+        margin-top: -11.24rem;
+    }
+
+    60% {
+        margin-top: -11.24rem;
+    }
+
+    70% {
+        margin-top: -5.62rem;
+    }
+
+    80% {
+        margin-top: -5.62rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.animate-second div:first-child {
+    animation: text-animation-second 12s infinite;
+}
+
+.for div {
+    background-color: #3157ff;
+    border-radius: 25px;
+}
+
+.five div {
+    background-color: #ff006a;
+    border-radius: 25px;
+}
+
+.six div {
+    background-color: #b82aff;
+    border-radius: 25px;
+}
+
+@keyframes text-animation-second {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -11.24rem;
+    }
+
+    30% {
+        margin-top: -11.24rem;
+    }
+
+    40% {
+        margin-top: -5.62rem;
+    }
+
+    60% {
+        margin-top: -5.62rem;
+    }
+
+    70% {
+        margin-top: -11.24rem;
+    }
+
+    80% {
+        margin-top: -11.24rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
